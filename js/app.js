@@ -10,7 +10,7 @@ const searchBook = () => {
   
     /* Dynamic-Fetch-URL*/
   
-    const url = `http://openlibrary.org/search.json?q=${searchText}`
+    const url = `https://openlibrary.org/search.json?q=${searchText}`
   
     fetch(url)
       .then(res => res.json())
